@@ -1,3 +1,13 @@
-//
-// Created by Adriana Reyes Morera on 23/11/23.
-//
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string str1 = "Happy";
+    std::string str2 = " birthday!";
+
+    str1 += str2;
+
+    std::cout << "Cadena resultante: " << str1 << '\n';
+
+    return 0;
+}
