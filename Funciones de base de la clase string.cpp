@@ -2,7 +2,7 @@
 #include <string>
 
 int main() {
-    std::string sentence = "OpenAI is a leading AI research lab.";
+    std::string sentence = "Hola, Mundo!";
     std::cout << "Cadena: " << sentence << '\n';
     std::cout << "Tamaño de la cadena: " << sentence.size() << '\n';
     std::cout << "Primer caracter: " << sentence[0] << '\n';
